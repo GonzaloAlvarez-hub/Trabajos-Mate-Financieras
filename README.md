@@ -22,7 +22,7 @@ VA=1000
 r=.02
 t=7
 #Calculamos valor futuro
-VF(VA,r,t)
+ValorFinal=VF(VA,r,t)
 #Imprimimos el resultado
-VF
+ValorFinal
 ```
