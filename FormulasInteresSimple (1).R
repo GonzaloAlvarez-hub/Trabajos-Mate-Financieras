@@ -14,6 +14,7 @@ VF=function(VA,r,t){
 
 VA=function(VF,r,t){
   xSalida=VF/(1+(r*t))
+  
   return(xSalida)
 }
 
@@ -21,6 +22,7 @@ VA=function(VF,r,t){
 
 r=function(VF,VA,t){
   xSalida=((VF/VA)-1)/t
+  
   return(xSalida)
 }
 
@@ -28,5 +30,6 @@ r=function(VF,VA,t){
 
 t=function(VF,VA,r){
   xSalida=((VF/VA)-1)/r
+  
   return(xSalida)
 }
