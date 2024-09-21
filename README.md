@@ -8,7 +8,7 @@ Con el siguiente código, puede usted cargar las funciones relativas a los cálc
 ```{r}
 source("https://raw.githubusercontent.com/GonzaloAlvarez-hub/Trabajos-Mate-Financieras/refs/heads/main/FormulasInteresSimple%20(1).R")
 ```
-A continuación se dan ejemlos del uso de las fórmulas
+A continuación se dan ejemplos del uso de las fórmulas
 ### Calculo del valor futuro
 $VA$=$1000.00$
 $i$=24.00% anualizado
@@ -39,9 +39,9 @@ VF=1140
 r=.02
 t=7
 #Calculamos valor inicial
-VA(VF,r,t)
+ValorInicial=VA(VF,r,t)
 #Imprimimos el resultado
-VA
+ValorInicial
 ```
 
 ### Calculo de la tasa de interes
