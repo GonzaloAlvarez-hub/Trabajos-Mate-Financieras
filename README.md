@@ -31,21 +31,25 @@ $VF$=$1140.00$
 $i$=24.00% anualizado
 $r$=2.00% mensual
 $t$=7 meses
+
+Se realizan los calculos
 ```{r}
 # Creamos objetos con valores de entrada
 VF=1140
 r=.02
 t=7
 #Calculamos valor inicial
-ValorInicial=VA(VF,r,t)
+VA(VF,r,t)
 #Imprimimos el resultado
-ValorInicial
+VA
 ```
 
 ### Calculo de la tasa de interes
 $VF$=$1140.00$
 $VA$=$1000.00$
 $t$=7 meses
+
+Se realizan los calculos
 ```{r}
 # Creamos objetos con valores de entrada
 VF=1140
@@ -62,6 +66,8 @@ $VF$=$1140.00$
 $VA$=$1000.00$
 $i$=24.00% anualizado
 $r$=2.00% mensual
+
+Se realizan los calculos
 ```{r}
 # Creamos objetos con valores de entrada
 VF=1140
